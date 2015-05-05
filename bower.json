@@ -1,0 +1,32 @@
+{
+  "name": "mnv-cmp-marquee",
+  "version": "0.1.0",
+  "homepage": "https://github.com/umbobabo/mnv-cmp-select",
+  "authors": [
+    "Umberto Babini <umbertobabini@economist.com>"
+  ],
+  "description": "Provide a pure JS marquee",
+  "main": [
+    "./dist/css/style.css",
+    "./dist/js/mnv-cmp-marquee.min.js",
+    ".dist/js/mnv-cmp-marquee.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "data/",
+    "js/",
+    "minerva-ws/",
+    "node_modules/",
+    "partials/",
+    "sites/",
+    "tmp/",
+    "views/",
+    ".gitignore",
+    "bower.json",
+    "config.json",
+    "Gruntfile.js",
+    "minerva-ws.js",
+    "package.json"
+  ],
+  "dependencies": {}
+}

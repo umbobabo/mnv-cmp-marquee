@@ -1,0 +1,2 @@
+(function() { var css = ".mnv-ec-marquee{position:relative;height:22px;font-size:16px;overflow:hidden;box-sizing:border-box;font-family:'Officina';}.mnv-ec-marquee span{white-space:nowrap;}\n" + 
+"\n", head = document.getElementsByTagName('head')[0], style = document.createElement('style'); style.setAttribute('type', 'text/css'); var nodeStyle = document.createTextNode(css); if(style.styleSheet){ style.styleSheet.cssText = nodeStyle.toString();}else{ style.appendChild(nodeStyle); }; head.appendChild(style);})();

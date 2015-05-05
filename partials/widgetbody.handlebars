@@ -1,0 +1,24 @@
+<div data-mnv="ecMarquee" class="mnv-widget mnv-ec-marquee" style="max-width: 100%"></div>
+<input id='test'><button id='add'>Add your text</button>
+<script>
+function ready(fn) {
+  if (document.readyState != 'loading'){
+    fn();
+  } else {
+    document.addEventListener('DOMContentLoaded', fn);
+  }
+}
+
+ready(function(){
+  marquee = new ecMarquee();
+  marquee.start('This is thtejfksljf alsjd ');
+});
+
+document.getElementById('add').addEventListener('click', 
+  function(){
+    marquee.update(document.getElementById('test').value);
+  });
+
+
+</script>
+
