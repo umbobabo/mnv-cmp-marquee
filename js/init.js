@@ -46,7 +46,7 @@ function ecMarquee(){
   function start(string){
     this.string = string;
     span = document.createElement('span');
-    span.innerText = string;
+    span.innerHTML = string;
     widget.appendChild(span);
     new mq();
     mqRotate(mqrEcMarquee);

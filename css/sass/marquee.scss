@@ -1,0 +1,13 @@
+$prefix: 'mnv-ec-marquee';
+
+.#{$prefix} {
+  position:relative;
+  height: $mnv-ec-marquee-height;
+  font-size: $mnv-ec-marquee-font-size;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: $mnv-ec-marquee-font-family;
+  span {
+    white-space:nowrap;
+  }
+}
